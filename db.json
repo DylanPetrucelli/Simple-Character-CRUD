@@ -1,0 +1,22 @@
+{
+  "characters": [
+    {
+      "id": "1",
+      "name": "Faith Connors",
+      "series": "Mirror's Edge",
+      "origin": "City of Glass, Cascadia"
+    },
+    {
+      "id": "2",
+      "name": "Dogson",
+      "series": "dog fella",
+      "origin": "nevada"
+    },
+    {
+      "name": "Agatha",
+      "series": "Ordem",
+      "origin": "Brazil",
+      "id": "3"
+    }
+  ]
+}
