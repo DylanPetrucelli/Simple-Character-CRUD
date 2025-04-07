@@ -1,21 +1,21 @@
 {
   "characters": [
     {
-      "id": "1",
       "name": "Faith Connors",
-      "series": "Mirror's Edge",
-      "origin": "City of Glass, Cascadia"
+      "series": "Mirror's Edge Catalyst",
+      "origin": "City of Glass, Cascadia",
+      "id": "1"
     },
     {
-      "id": "2",
-      "name": "Dogson",
-      "series": "dog fella",
-      "origin": "nevada"
+      "name": "Walter White",
+      "series": "Breaking Bad",
+      "origin": "New Mexico, USA",
+      "id": "2"
     },
     {
-      "name": "Agatha",
-      "series": "Ordem",
-      "origin": "Brazil",
+      "name": "\"Ghost\"",
+      "series": "Call of Duty",
+      "origin": "???",
       "id": "3"
     }
   ]
