@@ -1,0 +1,50 @@
+.create-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    color: white;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.basic-button {
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    background-color: #4d4541;
+    color: white;
+    padding: 1vh;
+    transition: 0.2s;
+}
+
+.basic-button:hover {
+    transition: 0.2s;
+    background-color: #c6bcb6;
+    color: black;
+    cursor: pointer;
+}
+
+.basic-text-input {
+    background-color: transparent;
+    border: 1px solid #96897f;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-bottom: 1vh;
+    outline: none;
+    transition: 0.2s;
+    color: white;
+}
+
+.basic-text-input:focus {
+    border: 1px solid white;
+}
+
+.basic-text-input::placeholder {
+    color: #a1968d;
+}

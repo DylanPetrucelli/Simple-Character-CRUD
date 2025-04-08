@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 import { Character } from "../types/Character"
 import * as characterService from "../services/characterService"
-import "../App.css";
+import "../styles/Home.css";
 
 function Home() {
   const [characters, setCharacters] = useState<Character[]>([])
@@ -23,24 +23,41 @@ function Home() {
 
   return (
     <div className="container">
-      <h1>Character Manager</h1>
-      <Link to="/create">
-        <button>Create New Character</button>
-      </Link>
+      <header>
+        <div className="header">
+          <h1>Character Manager</h1>
+          <Link to="/create">
+            <button className="create-button">Create New Character</button>
+          </Link>
+        </div>
+      </header>
+      
+      <table className="character-table">
+        <tr>
+          <th colSpan={4}>Characters Submitted</th>
+        </tr>
+        <tr id="table-top">
+          <th>Name</th>
+          <th>Series</th>
+          <th>Origin</th>
+          <th>Actions</th>
+        </tr>
 
-      <ul>
         {characters.map((char) => (
-          <li key={char.id}>
-            <strong>{char.name}</strong> from <em>{char.series}</em> ({char.origin})
-
-            <Link to={`/edit/${char.id}`}>
-              <button style={{ marginLeft: "0.5rem" }}>Edit</button>
-            </Link>
-            
-            <button onClick={() => handleDelete(char.id)} style={{ marginLeft: "0.5rem" }}>Delete</button>
-          </li>
+          <tr key={char.id}>
+            <th>{char.name}</th>
+            <th>{char.series}</th>
+            <th>{char.origin}</th>
+            <th>
+              <Link to={`/edit/${char.id}`}>
+                <button>Edit</button>
+              </Link>
+              <button onClick={() => handleDelete(char.id)}>Delete</button>
+            </th>
+          </tr>
         ))}
-      </ul>
+        
+      </table>
     </div>
   );
 }

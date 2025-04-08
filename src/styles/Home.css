@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.character-table, th, tr {
+    border: 1px solid #96897f;
+    border-collapse: collapse;
+    padding: 1vh 1vw 1vh 1vw;
+}
+
+#table-top {
+    background-color: #4d4541;
+}
+
+.character-table {
+    margin-top: 10vh;
+}
