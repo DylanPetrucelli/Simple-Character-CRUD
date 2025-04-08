@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { useNavigate, useParams } from "react-router-dom"
+import { Link, useNavigate, useParams } from "react-router-dom"
 import { Character } from "../types/Character"
 import * as characterService from "../services/characterService"
 import "../App.css"
@@ -39,33 +39,49 @@ function EditCharacter() {
   }
 
   return (
-    <div className="container">
-      <h2>Edit Character</h2>
-      <form onSubmit={handleSubmit}>
-        <input
-          name="name"
-          placeholder="Name"
-          value={form.name}
-          onChange={handleChange}
-          required
-        />
-        <input
-          name="series"
-          placeholder="Series"
-          value={form.series}
-          onChange={handleChange}
-          required
-        />
-        <input
-          name="origin"
-          placeholder="Origin"
-          value={form.origin}
-          onChange={handleChange}
-          required
-        />
-        <button type="submit">Update Character</button>
-      </form>
+
+    <div>
+      <header>
+              <Link to="/" style={{ textDecoration: 'none' }}>
+                <div className="header">
+                  <h1>Character Manager</h1>
+                </div>
+              </Link>
+            </header>
+      <div className="create-input">
+
+        <h2>Edit Character</h2>
+
+        <form onSubmit={handleSubmit} className="input-form">
+          <input
+            name="name"
+            placeholder="Name"
+            value={form.name}
+            onChange={handleChange}
+            required
+            className="basic-text-input"
+          />
+          <input
+            name="series"
+            placeholder="Series"
+            value={form.series}
+            onChange={handleChange}
+            required
+            className="basic-text-input"
+          />
+          <input
+            name="origin"
+            placeholder="Origin"
+            value={form.origin}
+            onChange={handleChange}
+            required
+            className="basic-text-input"
+          />
+          <button type="submit" className="basic-button">Update Character</button>
+        </form>
+      </div>
     </div>
+
   );
 }
 
