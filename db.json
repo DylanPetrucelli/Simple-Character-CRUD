@@ -13,40 +13,40 @@
       "id": "2"
     },
     {
-      "id": 4,
       "name": "Madeline",
       "series": "Celeste",
-      "origin": "USA"
+      "origin": "United States",
+      "id": "4"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Ryu",
       "series": "Street Fighter",
       "origin": "Japan"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Jack Cooper",
       "series": "Titanfall",
       "origin": "Harmony (planet)"
     },
     {
-      "id": 7,
-      "name": "Athena Cykes",
+      "name": "Phoenix Wright",
       "series": "Ace Attorney",
-      "origin": "Japanifornia"
+      "origin": "Japanifornia",
+      "id": "7"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Blue Mary",
       "series": "Fatal Fury",
       "origin": "United States"
     },
     {
-      "id": 9,
       "name": "John Wick",
       "series": "John Wick",
-      "origin": "John Wick"
+      "origin": "United States",
+      "id": "9"
     }
   ]
 }

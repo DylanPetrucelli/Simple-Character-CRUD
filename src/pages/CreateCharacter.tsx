@@ -26,8 +26,8 @@ function CreateCharacter() {
     const maxId = characters.length > 0 ? Math.max(...characters.map(c => c.id)) : 0;
 
     const newCharacter = {
-      ...form,
-      id: maxId + 1,
+      id: (maxId + 1).toString,
+      ...form
     }
 
     await characterService.createCharacter(newCharacter)
