@@ -24,9 +24,8 @@ function CreateCharacter() {
     const characters = res.data
 
     const maxId = characters.length > 0 ? Math.max(...characters.map(c => c.id)) : 0;
-
     const newCharacter = {
-      id: (maxId + 1).toString,
+      id: (maxId + 1).toString(),
       ...form
     }
 
@@ -75,6 +74,7 @@ function CreateCharacter() {
             className="basic-text-input"
           />
           <button type="submit" className="basic-button">Add Character</button>
+
         </form>
       </div>
     </div>

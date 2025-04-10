@@ -50,9 +50,9 @@ function Home() {
             <th>{char.origin}</th>
             <th>
               <Link to={`/edit/${char.id}`}>
-                <button>Edit</button>
+                <button className="basic-button">Edit</button>
               </Link>
-              <button onClick={() => handleDelete(char.id)}>Delete</button>
+              <button onClick={() => handleDelete(char.id)} className="basic-button">Delete</button>
             </th>
           </tr>
         ))}
