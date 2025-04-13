@@ -25,12 +25,6 @@
       "id": "5"
     },
     {
-      "id": "6",
-      "name": "Jack Cooper",
-      "series": "Titanfall",
-      "origin": "Harmony (planet)"
-    },
-    {
       "name": "Phoenix Wright",
       "series": "Ace Attorney",
       "origin": "Japanifornia",
@@ -43,10 +37,22 @@
       "origin": "United States"
     },
     {
-      "name": "John Wick",
-      "series": "John Wick",
-      "origin": "United States",
-      "id": "9"
+      "id": "9",
+      "name": "Captain America",
+      "series": "The Avengers",
+      "origin": "United States"
+    },
+    {
+      "id": "10",
+      "name": "Goku",
+      "series": "Dragon Ball",
+      "origin": "Planet Vegeta"
+    },
+    {
+      "name": "Dante",
+      "series": "Devil May Cry",
+      "origin": "Red Grave",
+      "id": "11"
     }
   ]
 }

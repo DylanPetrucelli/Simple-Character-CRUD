@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react"
-import { Link, useNavigate, useParams } from "react-router-dom"
+import { useNavigate, useParams } from "react-router-dom"
 import { Character } from "../types/Character"
 import * as characterService from "../services/characterService"
+import Header from "../components/Header"
 import "../App.css"
 
 function EditCharacter() {
@@ -41,13 +42,9 @@ function EditCharacter() {
   return (
 
     <div>
-      <header>
-              <Link to="/" style={{ textDecoration: 'none' }}>
-                <div className="header">
-                  <h1>Character Manager</h1>
-                </div>
-              </Link>
-            </header>
+      
+      <Header />
+
       <div className="create-input">
 
         <h2>Edit Character</h2>

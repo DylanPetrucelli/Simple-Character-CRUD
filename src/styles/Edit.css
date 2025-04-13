@@ -4,10 +4,6 @@
     align-items: center;
 }
 
-.header {
-    color: white;
-}
-
 .input-form {
     display: flex;
     flex-direction: column;
