@@ -2,7 +2,7 @@
   "characters": [
     {
       "name": "Faith Connors",
-      "series": "Mirror's Edge Catalyst",
+      "series": "Mirror's Edge",
       "origin": "City of Glass, Cascadia",
       "id": "1"
     },
@@ -31,27 +31,15 @@
       "id": "7"
     },
     {
-      "id": "8",
       "name": "Blue Mary",
       "series": "Fatal Fury",
-      "origin": "United States"
-    },
-    {
-      "id": "9",
-      "name": "Captain America",
-      "series": "The Avengers",
-      "origin": "United States"
-    },
-    {
-      "id": "10",
-      "name": "Goku",
-      "series": "Dragon Ball",
-      "origin": "Planet Vegeta"
+      "origin": "Southtown, USA",
+      "id": "8"
     },
     {
       "name": "Dante",
       "series": "Devil May Cry",
-      "origin": "Red Grave",
+      "origin": "Red Grave, USA",
       "id": "11"
     }
   ]
