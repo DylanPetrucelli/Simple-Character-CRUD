@@ -3,7 +3,7 @@ import { Character } from "../types/Character"
 import * as characterService from "../services/characterService"
 import CharTable from "../components/CharTable"
 import Header from "../components/Header"
-import "../styles/Home.css";
+import "../styles/Home.css"
 
 function Home() {
   const [characters, setCharacters] = useState<Character[]>([])

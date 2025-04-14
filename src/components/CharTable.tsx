@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import { Character } from "../types/Character"
+import BasicButton from "./BasicButton"
 
 type Props = {
   characters: Character[]
@@ -27,9 +28,9 @@ const CharTable = ({characters, onDelete}: Props) => {
           <th>{char.origin}</th>
           <th>
             <Link to={`/edit/${char.id}`}>
-              <button className="basic-button">Edit</button>
+              <BasicButton mr="2">Edit</BasicButton>
             </Link>
-            <button onClick={() => onDelete(char.id)} className="basic-button">Delete</button>
+            <BasicButton onClick={() => onDelete(char.id)}>Delete</BasicButton>
           </th>
         </tr>
       ))}
