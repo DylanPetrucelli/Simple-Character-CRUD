@@ -1,7 +1,6 @@
 import { Link, useLocation } from "react-router-dom"
 import { Heading, Flex, Box } from "@chakra-ui/react"
 import BasicButton from "./BasicButton";
-//import "../styles/Header.css"
 
 const Header = () => {
   const location = useLocation();
@@ -14,7 +13,6 @@ const Header = () => {
             <Heading size="4xl" fontFamily="mono">Character Manager</Heading>
           </Link>
         
-  
         {location.pathname !== "/create" && (
           <Link to="/create">
             <BasicButton>Create New Character</BasicButton>

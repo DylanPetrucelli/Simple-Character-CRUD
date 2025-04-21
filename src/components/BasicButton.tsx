@@ -2,13 +2,13 @@ import { Button, ButtonProps } from "@chakra-ui/react"
 import React from "react";
 
 type BasicButtonProps = {
-    onClick?: () => void;
-    children: React.ReactNode;
+    onClick?: () => void
+    children: React.ReactNode
 } & ButtonProps
 
 const BasicButton = ({ onClick, children, ...rest }: BasicButtonProps) => {
     return (
-        <Button bg={{ base: "gray.800", _hover: "gray.700" }}
+        <Button bg={{ base: "gray.700", _hover: "gray.600" }}
         {...rest}
         onClick={onClick}>
             {children}

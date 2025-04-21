@@ -26,6 +26,7 @@ const CharTable = ({characters, onDelete}: Props) => {
           <th>{char.name}</th>
           <th>{char.series}</th>
           <th>{char.origin}</th>
+          
           <th>
             <Link to={`/edit/${char.id}`}>
               <BasicButton mr="2">Edit</BasicButton>

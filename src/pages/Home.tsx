@@ -24,11 +24,8 @@ function Home() {
 
   return (
     <div className="container">
-
       <Header />
-
       <CharTable characters={characters} onDelete={handleDelete} />
-      
     </div>
   );
 }

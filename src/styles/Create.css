@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 11vh;
 }
 
 .input-form {
@@ -29,7 +30,6 @@
 .basic-text-input {
     background-color: transparent;
     border: 1px solid #96897f;
-    border-radius: 5px;
     padding: 0.5rem;
     margin-bottom: 1vh;
     outline: none;
