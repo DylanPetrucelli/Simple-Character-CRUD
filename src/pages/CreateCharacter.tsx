@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom"
 import { Character } from "../types/Character"
 import * as characterService from "../services/characterService"
 import Header from "../components/Header"
+import CharacterForm from "../components/CharForm"
 import "../styles/Create.css"
 
 function CreateCharacter() {
@@ -40,37 +41,15 @@ function CreateCharacter() {
       <Header />
 
       <div className="create-input">
-
         <h2>Add New Character</h2>
 
-        <form onSubmit={handleSubmit} className="input-form">
-          <input
-            name="name"
-            placeholder="Name"
-            value={form.name}
-            onChange={handleChange}
-            required
-            className="basic-text-input"
-          />
-          <input
-            name="series"
-            placeholder="Series"
-            value={form.series}
-            onChange={handleChange}
-            required
-            className="basic-text-input"
-          />
-          <input
-            name="origin"
-            placeholder="Origin"
-            value={form.origin}
-            onChange={handleChange}
-            required
-            className="basic-text-input"
-          />
-          <button type="submit" className="basic-button">Add Character</button>
+        <CharacterForm
+          form={form}
+          handleChange={handleChange}
+          onSubmit={handleSubmit}
+          submitText="Add Character"
+        />
 
-        </form>
       </div>
     </div>
 

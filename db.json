@@ -3,7 +3,7 @@
     {
       "name": "Faith Connors",
       "series": "Mirror's Edge",
-      "origin": "City of Glass, Cascadia",
+      "origin": "Glass, Cascadia",
       "id": "1"
     },
     {
@@ -19,9 +19,9 @@
       "id": "4"
     },
     {
-      "name": "Ryu",
+      "name": "Ken Masters",
       "series": "Street Fighter",
-      "origin": "Japan",
+      "origin": "United States",
       "id": "5"
     },
     {
@@ -37,10 +37,16 @@
       "id": "8"
     },
     {
-      "name": "Dante",
+      "name": "Dante Sparda",
       "series": "Devil May Cry",
       "origin": "Red Grave, USA",
       "id": "11"
+    },
+    {
+      "name": "Lucio",
+      "series": "Overwatch",
+      "origin": "Rio de Janeiro, Brasil",
+      "id": "12"
     }
   ]
 }
